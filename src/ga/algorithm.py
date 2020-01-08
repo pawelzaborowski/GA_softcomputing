@@ -1,3 +1,4 @@
+import numpy as np
 import random
 import sys
 import math
@@ -5,7 +6,12 @@ import math
 
 # Simpler fitness_function of two variables with a maximum at (x=1, y=2)
 def fitness_function(x, y):
-    return 20 * (x ** 2) + (y ** 2) - 10 * (math.cos(2 * 3.14 * x) + math.cos(2 * 3.14 * y))
+    # return ((math.pi / 2) - math.atan(math.fabs(x - x(i))/r(i)))
+    return 20 * (x ** 2) + (y ** 2) - 10 * (math.cos(2 * math.pi * x) + math.cos(2 * math.pi * y))
+
+
+def function_for_plot(x, y):
+    return 20 * (x ** 2) + (y ** 2) - 10 * (np.cos(2 * math.pi * x) + np.cos(2 * math.pi * y))
 
 
 def evaluate_generation(population):

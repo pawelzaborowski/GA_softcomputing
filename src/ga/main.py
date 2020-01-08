@@ -1,6 +1,7 @@
 import sys
 
 from ga.algorithm import initialize, evaluate_generation, mutate, find_best, termination
+from ga.plot import print_plot
 
 if __name__ == "__main__":
 
@@ -27,3 +28,4 @@ if __name__ == "__main__":
         population = new_population
     best, val = find_best(population)
     termination(best, val, total_iterations, population_size, num_attributes)
+    print_plot()
