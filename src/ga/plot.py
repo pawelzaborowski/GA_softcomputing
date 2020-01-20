@@ -7,8 +7,8 @@ from ga.algorithm import fitness_function, function_for_plot
 
 def print_plot():
 
-    x = np.linspace(-60, 60, 30)
-    y = np.linspace(-60, 60, 30)
+    x = np.linspace(-3, 3, 30)
+    y = np.linspace(-3, 3, 30)
 
     X, Y = np.meshgrid(x, y)
     Z = function_for_plot(X, Y)

@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Function}{2}{subsection.1.1}
+\contentsline {section}{\numberline {2}Theory}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Genetic algorithm in general}{2}{subsection.2.1}
+\contentsline {section}{\numberline {3}Implementation}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Fitness function}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Selection function}{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Reproduction function}{5}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Termination function}{6}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Technology}{7}{subsection.3.5}
+\contentsline {section}{\numberline {4}Experiments}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}First function}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Second function}{7}{subsection.4.2}
+\contentsline {section}{\numberline {5}Plots}{8}{section.5}
+\contentsline {subsection}{\numberline {5.1}First function}{8}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Second function}{10}{subsection.5.2}
+\contentsline {section}{\numberline {6}Results \& conclusions}{10}{section.6}

@@ -1,17 +1,23 @@
 import numpy as np
 import random
-import sys
 import math
 
 
-# Simpler fitness_function of two variables with a maximum at (x=1, y=2)
+def function_picker():
+    return 1
+
 def fitness_function(x, y):
-    # return ((math.pi / 2) - math.atan(math.fabs(x - x(i))/r(i)))
-    return 20 * (x ** 2) + (y ** 2) - 10 * (math.cos(2 * math.pi * x) + math.cos(2 * math.pi * y))
+    if function_picker() == 1:
+        return 20 * (x ** 2) + (y ** 2) - 10 * (math.sin(2 * math.pi * x) + math.cos(2 * math.pi * y))
+    else:
+        return math.sin(3 * x) * math.cos(3 * y) / 3
 
 
 def function_for_plot(x, y):
-    return 20 * (x ** 2) + (y ** 2) - 10 * (np.cos(2 * math.pi * x) + np.cos(2 * math.pi * y))
+    if function_picker() == 1:
+        return 20 * (x ** 2) + (y ** 2) - 10 * (np.sin(2 * math.pi * x) + np.cos(2 * math.pi * y))
+    else:
+        return np.sin(3 * x) * np.cos(3 * y) / 3
 
 
 def evaluate_generation(population):
@@ -21,8 +27,6 @@ def evaluate_generation(population):
         r = fitness_function(individual[0], individual[1])
         scores.append(r)
         total += r
-    else:
-        print("error: Wrong number of arguments received")
     avg = total / len(scores)
     return scores, avg
 

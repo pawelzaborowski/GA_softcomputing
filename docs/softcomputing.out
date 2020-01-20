@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Function}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Theory}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Genetic algorithm in general}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Implementation}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Fitness function}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Selection function}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Reproduction function}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Termination function}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.5}{Technology}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Experiments}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{First function}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Second function}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{Plots}{}% 14
+\BOOKMARK [2][-]{subsection.5.1}{First function}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.2}{Second function}{section.5}% 16
+\BOOKMARK [1][-]{section.6}{Results \046 conclusions}{}% 17
